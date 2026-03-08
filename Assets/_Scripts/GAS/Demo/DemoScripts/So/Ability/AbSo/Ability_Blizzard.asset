@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48baf099b254b034aa65fe46771bd9f0, type: 3}
+  m_Name: Ability_Blizzard
+  m_EditorClassIdentifier: Assembly-CSharp::GAS.AbilitySystem.Ability_Blizzard
+  icon: {fileID: 0}
+  abilityName: Blizzard
+  description: 
+  cooldownTime: 1
+  costStatId: 
+  costType: 0
+  costValue: 0
+  blizzardEffectPrefab: {fileID: 4231151264743384326, guid: fa0e1dcc2e3575445a80fbd14b6589fe, type: 3}
+  blizzardRadius: 5
+  enemyLayer:
+    serializedVersion: 2
+    m_Bits: 64
+  blizzardDamageEffect: {fileID: 11400000, guid: b5ab4b48655a43442b488ef8b2b85822, type: 2}
+  damageInterval: 0.5

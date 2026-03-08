@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c84f850f8485cea4bbf2b40768980438, type: 3}
+  m_Name: Ability_LightningBolt
+  m_EditorClassIdentifier: Assembly-CSharp::GAS.AbilitySystem.Ability_LightningBolt
+  icon: {fileID: 0}
+  abilityName: LightningBolt
+  description: 
+  cooldownTime: 1
+  costStatId: 
+  costType: 0
+  costValue: 0
+  projectilePrefab: {fileID: 1357752322479520017, guid: 6d0b33f5498d44c4bb58fd99b459c887, type: 3}
+  hitEffectPrefab: {fileID: 1357752322479520017, guid: 6d0b33f5498d44c4bb58fd99b459c887, type: 3}
+  projectileSpeed: 15
+  delayBeforeLaunch: 0.5
+  arriveDistance: 1
+  damageEffect: {fileID: 11400000, guid: c7d702a2ccaf5b6468df3be87e5c031d, type: 2}

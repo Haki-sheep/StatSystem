@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1331440670439643a9853d11c79a8b6, type: 3}
+  m_Name: Ability_SpeedBoost
+  m_EditorClassIdentifier: Assembly-CSharp::GAS.AbilitySystem.Ability_SpeedBoost
+  icon: {fileID: 0}
+  abilityName: SpeedBoost
+  description: 
+  cooldownTime: 1
+  costStatId: 
+  costType: 0
+  costValue: 0
+  speedBoostEffect: {fileID: 11400000, guid: dea7d353810b90546b8a1adc3919d694, type: 2}
+  speedEffectPrefab: {fileID: 4088983381869311096, guid: bec4675f289ac1040b5baafdee9757e0, type: 3}

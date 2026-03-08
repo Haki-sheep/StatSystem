@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be24e30a2e7bbee47b4739c03d397f22, type: 3}
+  m_Name: PlayerStats_AttackSpeed
+  m_EditorClassIdentifier: Assembly-CSharp::GAS.StateSystem.StatData
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  statType: 0
+  baseValue: 1
+  minValue: -3.4028235e+38
+  maxValue: 3.4028235e+38
+  resetCurrentValueOnPlay: 1
