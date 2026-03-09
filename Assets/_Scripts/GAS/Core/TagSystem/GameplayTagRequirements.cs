@@ -27,7 +27,5 @@ namespace GAS.TagSystem
                 
             return true;
         }
-
-
     }
 }

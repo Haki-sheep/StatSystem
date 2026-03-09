@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: be24e30a2e7bbee47b4739c03d397f22, type: 3}
-  m_Name: StatDefinition1
-  m_EditorClassIdentifier: Assembly-CSharp::GAS.Core.StateSystem.StatData
+  m_Name: Test_HP
+  m_EditorClassIdentifier: Assembly-CSharp::GAS.StateSystem.StatData
   serializationData:
     SerializedFormat: 2
     SerializedBytes: 
@@ -21,7 +21,8 @@ MonoBehaviour:
     PrefabModificationsReferencedUnityObjects: []
     PrefabModifications: []
     SerializationNodes: []
-  baseValue: 10
-  currentValue: 30
-  upperLimit: -1
-  resetCurrentValueOnPlay: 0
+  statType: 1
+  baseValue: 100
+  minValue: 0
+  maxValue: 100
+  resetCurrentValueOnPlay: 1

@@ -11,7 +11,6 @@ namespace GAS.TagSystem
     {
         //标签列表
         private readonly HashSet<GameplayTag> mTagHashSet = new HashSet<GameplayTag>();
-
         private ReadOnlyCollection<GameplayTag>? cachedTags;
         //只读
         public ReadOnlyCollection<GameplayTag> Tags

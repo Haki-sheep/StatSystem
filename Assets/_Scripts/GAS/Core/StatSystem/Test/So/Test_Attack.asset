@@ -9,9 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4326928cbf11f248b9c066ce65b86ef, type: 3}
-  m_Name: GE_Data
-  m_EditorClassIdentifier: Assembly-CSharp::GAS.Core.GameplayEffect.GameplayEffectData
+  m_Script: {fileID: 11500000, guid: be24e30a2e7bbee47b4739c03d397f22, type: 3}
+  m_Name: Test_Attack
+  m_EditorClassIdentifier: Assembly-CSharp::GAS.StateSystem.StatData
   serializationData:
     SerializedFormat: 2
     SerializedBytes: 
@@ -21,20 +21,8 @@ MonoBehaviour:
     PrefabModificationsReferencedUnityObjects: []
     PrefabModifications: []
     SerializationNodes: []
-  gameplayTags:
-  - Hurt
-  requiredNeedTags:
-  - 
-  requiredBanTags:
-  - 
-  durationPolicy: 1
-  duration: 5
-  isPeriodic: 1
-  period: 2
-  executePeriodicEffectOnApplication: 1
-  stackingPolicy: 1
-  stackLimit: 1
-  durationRefreshPolicy: 1
-  periodResetPolicy: 1
-  expirationPolicy: 0
-  statModifierConfig: []
+  statType: 0
+  baseValue: 100
+  minValue: 0
+  maxValue: 99999
+  resetCurrentValueOnPlay: 0
