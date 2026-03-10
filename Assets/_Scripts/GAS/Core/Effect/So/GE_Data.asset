@@ -30,7 +30,7 @@ MonoBehaviour:
   durationPolicy: 1
   duration: 5
   isPeriodic: 1
-  period: 2
+  period: 1
   executePeriodicEffectOnApplication: 1
   stackingPolicy: 1
   stackLimit: 1
