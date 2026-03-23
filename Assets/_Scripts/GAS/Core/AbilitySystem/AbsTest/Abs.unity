@@ -260,7 +260,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::GAS.Component.AbilitySystemComponent
   geManager: {fileID: 182803582}
   statController: {fileID: 182803579}
-  initialAbilities: []
+  initialAbilities:
+  - {fileID: 11400000, guid: b7244222a91d06b48a09cf8b4f60d300, type: 2}
 --- !u!114 &182803579
 MonoBehaviour:
   m_ObjectHideFlags: 0

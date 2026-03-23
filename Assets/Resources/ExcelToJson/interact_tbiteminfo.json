@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "Rarity": 0,
+    "Itemype": 0,
+    "ItemName": "AAA",
+    "ItemDescription": "this is a Cube",
+    "ItemIcon": "UI/Icon/L_Rose_fire",
+    "Weight": 4,
+    "Height": 2
+  },
+  {
+    "id": 2,
+    "Rarity": 1,
+    "Itemype": 1,
+    "ItemName": "BBB",
+    "ItemDescription": "this is a Gun",
+    "ItemIcon": "UI/Icon/L_Dizzy",
+    "Weight": 3,
+    "Height": 1
+  },
+  {
+    "id": 3,
+    "Rarity": 2,
+    "Itemype": 1,
+    "ItemName": "CCC",
+    "ItemDescription": "this is a Gun",
+    "ItemIcon": "UI/Icon/L_Dizzy",
+    "Weight": 3,
+    "Height": 1
+  }
+]
